@@ -1,0 +1,18 @@
+/*
+ *	Default Style Sheet for Website 
+ */
+
+a {
+	text-decoration	:	none;
+}
+
+a:hover {
+	text-decoration	:	underline;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
