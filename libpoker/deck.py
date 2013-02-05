@@ -6,13 +6,13 @@ import random
 # The "top" card on the deck is the last card in self.cards. Use pop to draw the top card.
 #
 
-class Deck():
+class qDeck():
 	def __init__(self):
 		self.cards = []
 		self.outCards = []	#for popped cards
 		for s in card.suits:
 			for v in card.values:
-				self.cards.append(   card.Card(v,s)   ) 
+				self.cards.append(   card.qCard(v,s)   ) 
 
 	def shuffle(self):
 		random.shuffle(self.cards)

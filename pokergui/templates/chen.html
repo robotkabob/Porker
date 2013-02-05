@@ -19,25 +19,17 @@
 </head>
 <body>
 <div class="playingCards">
-    <ul class="table">
+    <ul class="hand">
 
-    <li><div class="card rank-7 spades">
-    <span class="rank">7</span>
-    <span class="suit">&spades;</span>
-    </div></li>
+    <li>{{ chenCards[0].generateHTML()|safe }}</li>
 
-    <li><div class="card rank-7 spades">
-    <span class="rank">7</span>
-    <span class="suit">&spades;</span>
-    </div></li>
+    <li>{{ chenCards[1].generateHTML()|safe }}</li>
 
-    <li><div class="card rank-7 spades">
-    <span class="rank">7</span>
-    <span class="suit">&spades;</span>
-    </div></li>
     
     </ul>
 </div>
+
+{{chenValue}}
 
 </body>
 </html>

@@ -1,4 +1,5 @@
-import card
+from card import qCard
+from deck import qDeck
 import math
 
 def chenFormula(a,b):

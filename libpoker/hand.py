@@ -1,5 +1,5 @@
 import card
 
-class Hand():
+class qHand():
 	def __init__(self, cards = []):
 		self.cards = cards
